@@ -10,15 +10,15 @@ The system enables secure video upload, streaming, and role-based access control
 
 \## Tech Stack
 
-Frontend: React (Create React App)  
+Frontend: React (Create React App)
 
-Backend: Node.js, Express.js  
+Backend: Node.js, Express.js
 
-Database: MongoDB  
+Database: MongoDB
 
-Authentication: JWT  
+Authentication: JWT
 
-File Uploads: Multer  
+File Uploads: Multer
 
 
 
@@ -94,13 +94,17 @@ The frontend refreshes video lists using API calls after actions.
 
 
 
+\## Running the Project
+
+
+
 Backend:
 
 cd backend  
 
 npm install  
 
-npm run dev  
+npx nodemon src/server.js  
 
 
 
@@ -116,11 +120,9 @@ npm start
 
 \## Author
 
-Saikumar Vasamsetti  
+Saikumar Vasamsetti
 
-B.Tech, ECE  
+B.Tech, ECE
 
 IIT (ISM) Dhanbad
-
-
 
